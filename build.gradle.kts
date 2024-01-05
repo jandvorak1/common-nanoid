@@ -31,8 +31,8 @@ publishing {
             version = "0.1.0"
             from(components["java"])
             pom {
-                name = "Java Hello World"
-                description = "Simple java hello world library."
+                name = "Common NanoId"
+                description = "Very simple NanoId generator."
                 url = "https://github.com/jandvorak1/common-nanoid"
                 licenses {
                     license {
