@@ -10,5 +10,6 @@ class NanoIdTest {
   void next() {
     // Testing method next
     assertEquals(21, NanoId.next().length());
+    assertEquals(12, NanoId.next(12, "abcdefghijklmnopqrstuvwxyz").length());
   }
 }
