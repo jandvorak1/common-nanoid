@@ -9,7 +9,7 @@ repositories {
 }
 
 group = "com.dvoraksw.cn"
-version = "0.1.0"
+version = "0.2.0-SNAPSHOT"
 
 dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.0")
@@ -28,7 +28,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.dvoraksw.cn"
             artifactId = "common-nanoid"
-            version = "0.1.0"
+            version = "0.2.0-SNAPSHOT"
             from(components["java"])
             pom {
                 name = "Common NanoId"
