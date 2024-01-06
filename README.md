@@ -17,8 +17,8 @@ var implicitNanoId = NanoId.next();
 System.out.println(implicitNanoId);
 
 // Generate and print custom NanoId with specific length and alphabet to console.
-var nanoId = NanoId.next(21, "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_");
-System.out.println(nanoId);
+var customNanoId = NanoId.next(21, "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_");
+System.out.println(customNanoId);
 ```
 
 ## Dependency
